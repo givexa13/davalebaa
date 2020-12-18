@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "439078482572",
+    "project_id": "gaga-69c59",
+    "storage_bucket": "gaga-69c59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439078482572:android:0f76282f2b5c91d65541a9",
+        "android_client_info": {
+          "package_name": "com.example.a19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439078482572-1h2s0nm7dj6cgbdgi4mgtg4s19nllukt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY3ln0BNgZgU20noGiPfSMvDTmdyYUslU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439078482572-1h2s0nm7dj6cgbdgi4mgtg4s19nllukt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

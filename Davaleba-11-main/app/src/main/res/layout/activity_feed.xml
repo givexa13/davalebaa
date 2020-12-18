@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/timeToChangePassword"
+        android:layout_width="194dp"
+        android:layout_height="71dp"
+        android:layout_marginBottom="52dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="პაროლის შეცვლა"
+        app:icon="@android:drawable/ic_lock_lock"
+        app:iconTint="#F10A0A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/logOutMan"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="260dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/white"
+        android:text="გამოსვლა"
+        android:textColor="@color/black"
+        app:icon="@drawable/abc_vector_test"
+        app:iconTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="376dp"
+        android:layout_height="251dp"
+        android:layout_marginStart="50dp"
+        android:text="Hello!"
+        android:textColor="@color/black"
+        android:textSize="100sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
